@@ -1,0 +1,91 @@
+
+
+
+.dark-yellow {
+	color: #ffc20e;
+}
+
+.dark-blue {
+	color: #3e7c94;
+}
+
+.darker-blue {
+	color: #295d6d;
+}
+
+.darker-blue-fill {
+	background-color: #295d6d;
+}
+
+.light-blue {
+	color: #a8d1e4;
+}
+
+.main-defaults {
+	background-color: #3e7c94;
+}
+
+a.button .icon:before, a.button.icon:before {
+
+    margin-right: 5px;
+}
+
+.logo-large {
+    background-image: url("../img/logo.png");
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 20px 0 0 0;
+}
+
+.form-wrapper {
+    margin: 40px 0 40px 0;
+}
+
+.form-fields {
+	background-color: #295d6d;
+	border:1px #3e7c94 solid;
+}
+
+.form-header {
+    background-color: #3e7c94;
+    border: 0;
+    color: #fff;
+}
+
+.form-fields .input-label {
+	color: #a8d1e4;
+}
+
+.form-fields.top {
+	border-radius: 7px 7px 0 0;
+}
+
+.form-fields.bottom {
+	border-radius: 0 0 7px 7px;
+}
+
+.bottom-pin-button {
+	width: calc(100% - 20px);
+	position: fixed;
+	bottom: 10px;
+}
+
+
+/* Overrides */
+
+.button.button-energized {
+    border-color: #ffc900;
+    background-color: #ffc900;
+    color: #3e7c94;
+}
+
+.card .item:last-child, .list-inset .item:last-child, .padding > .list .item:last-child {
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
+    color: white;
+    font-size: larger;
+}
