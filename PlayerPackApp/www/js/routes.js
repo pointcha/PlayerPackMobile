@@ -11,7 +11,7 @@ angular.module('app.routes', [])
     .state('login', {
       url: '/login',
       templateUrl: 'templates/login.html',
-      controller: 'loginCtrl'
+      controller: 'AppCtrl'
     })
         
     .state('join', {
@@ -78,6 +78,6 @@ angular.module('app.routes', [])
     ;
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/page22');
+  $urlRouterProvider.otherwise('/login');
 
 });

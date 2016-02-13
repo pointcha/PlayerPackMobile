@@ -1,4 +1,4 @@
-angular.module('app.controllers', [])
+angular.module('starter.controllers', [])
 
 .controller('AppCtrl', function($scope, $ionicModal, $timeout, $http) {
 
@@ -46,36 +46,17 @@ angular.module('app.controllers', [])
     });
   };
 })
-  
-.controller('loginCtrl', function($scope) {
 
+.controller('PlaylistsCtrl', function($scope) {
+  $scope.playlists = [
+    { title: 'Reggae', id: 1 },
+    { title: 'Chill', id: 2 },
+    { title: 'Dubstep', id: 3 },
+    { title: 'Indie', id: 4 },
+    { title: 'Rap', id: 5 },
+    { title: 'Cowbell', id: 6 }
+  ];
 })
-   
-.controller('joinCtrl', function($scope) {
 
-})
-   
-.controller('cameraTabDefaultPageCtrl', function($scope) {
-
-})
-   
-.controller('cartTabDefaultPageCtrl', function($scope) {
-
-})
-   
-.controller('cloudTabDefaultPageCtrl', function($scope) {
-
-})
-      
-.controller('profileCtrl', function($scope) {
-
-})
-   
-.controller('cardsCtrl', function($scope) {
-
-})
-   
-.controller('tradesCtrl', function($scope) {
-
-})
- 
+.controller('PlaylistCtrl', function($scope, $stateParams) {
+});

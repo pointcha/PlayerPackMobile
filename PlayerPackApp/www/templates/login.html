@@ -4,20 +4,20 @@
         <div class="logo-large"></div>
 
         <div class="bottom-pin-button">
-            <form class="list">
+            <form class="list" ng-submit="doLogin()">
                 <div class="form-wrapper">
                     <ion-list>
                         <label class="item item-input form-fields top">
                             <span class="input-label light-blue">Username</span>
-                            <input type="text" placeholder="">
+                            <input type="text" placeholder="" ng-model="loginData.username">
                         </label>
                         <label class="item item-input form-fields bottom">
                             <span class="input-label light-blue">Password</span>
-                            <input type="password" placeholder="">
+                            <input type="password" placeholder="" ng-model="loginData.password">
                         </label>
                     </ion-list>
                 </div>
-                <a ui-sref="menu.profile" class="button button-energized button-block button-block">LOGIN</a>
+                <button class="button button-energized button-block button-block" type="submit">LOGIN</button>
                 <a ui-sref="join" class="button button-light button-clear button-block button-small icon ion-android-person-add">JOIN THE PACK</a>
             </form>
         </div>
