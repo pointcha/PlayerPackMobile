@@ -52,7 +52,7 @@ module.exports = function(app, passport) {
               'message' : info.message
             }); 
           }
-          else {  //success!  return the successful status and the if of the logged in user
+          else {  //success!  return the successful status and the id of the logged in user
             return res.json({
               'loginstatus' : 'success',
               'userid' : user.id

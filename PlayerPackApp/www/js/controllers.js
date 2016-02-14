@@ -31,8 +31,8 @@ angular.module('app.controllers', [])
 
   // Perform the login action when the user submits the login form
   $scope.doLogin = function() {
-    $http.post("http://localhost:8080/api/login", { email: $scope.loginData.email, password: $scope.loginData.password }).then(function(result) {
-        if (result.data.loginstatus == "success") {
+    $http.post("http://localhost:8080/api/login", { email: $scope.loginData.username, password: $scope.loginData.password }).then(function(result) {
+if (result.data.loginstatus == "success") {
             // successful login, in our example, we will just send an alert message
             alert("Congrats, you logged in with user ID "+result.data.userid);
         }
