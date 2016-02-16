@@ -19,24 +19,6 @@ angular.module('app.routes', [])
       templateUrl: 'templates/join.html',
       controller: 'joinCtrl'
     })
-        
-    .state('cameraTabDefaultPage', {
-      url: '/page27',
-      templateUrl: 'templates/cameraTabDefaultPage.html',
-      controller: 'cameraTabDefaultPageCtrl'
-    })
-        
-    .state('cartTabDefaultPage', {
-      url: '/page28',
-      templateUrl: 'templates/cartTabDefaultPage.html',
-      controller: 'cartTabDefaultPageCtrl'
-    })
-        
-    .state('cloudTabDefaultPage', {
-      url: '/page29',
-      templateUrl: 'templates/cloudTabDefaultPage.html',
-      controller: 'cloudTabDefaultPageCtrl'
-    })
       
     .state('menu', {
       url: '/side-menu22',
