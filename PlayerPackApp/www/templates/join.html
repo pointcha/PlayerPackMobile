@@ -1,17 +1,28 @@
 <ion-view title="Join">
-    <ion-content overflow-scroll="true" padding="true" scroll="false" class="has-header">
-        <form class="list">
-            <ion-list>
-                <label class="item item-input">
-                    <span class="input-label">Username</span>
-                    <input type="text" placeholder="">
-                </label>
-                <label class="item item-input">
-                    <span class="input-label">Password</span>
-                    <input type="text" placeholder="">
-                </label>
-            </ion-list>
-            <a ui-sref="menu.profile" class="button button-stable button-outline button-block ">REGISTER</a>
-        </form>
-    </ion-content>
+<ion-content overflow-scroll="true" padding="true" scroll="false" class="has-header main-defaults">
+<form class="list">
+    <div class="form-wrapper">
+        <ion-list>
+        <label class="item item-input form-fields top">
+            <span class="input-label">Parent Name</span>
+            <input type="text" placeholder="">
+        </label>
+        <label class="item item-input form-fields">
+            <span class="input-label">Email</span>
+            <input type="text" placeholder="">
+        </label>
+        <label class="item item-input form-fields bottom">
+            <span class="input-label">Password</span>
+            <input type="password" placeholder="">
+        </label>
+    </ion-list>
+
+<div class="bottom-pin-button">
+    <a ui-sref="menu.profile" class="button button-energized button-block button-block">JOIN THE PACK</a>
+    <a ui-sref="login" class="button button-light button-clear button-block button-small icon ion-android-lock">BACK TO LOGIN</a>
+</div>
+</div>
+</form>
+
+</ion-content>
 </ion-view>

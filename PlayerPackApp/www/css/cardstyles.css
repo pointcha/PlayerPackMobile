@@ -1,0 +1,7 @@
+.card-style-1 {
+    background-image: url("../uploads/imagetest.jpg");
+    height: 480px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 10px;
+}
