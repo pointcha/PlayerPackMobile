@@ -74,6 +74,11 @@ a.button .icon:before, a.button.icon:before, button.button .icon:before, button.
 
 /* Overrides */
 
+.item-select select {
+    color: #fff;
+    font-size: larger;
+}
+
 .card, .list-inset {
     overflow: hidden;
     margin: 5px 10px;
