@@ -79,6 +79,9 @@ a.button .icon:before, a.button.icon:before, button.button .icon:before, button.
     margin: 5px 10px;
     border-radius: 2px;
     background-color: #fff;
+    -webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 2px 7px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.75)
 }
 
 .button.button-energized {

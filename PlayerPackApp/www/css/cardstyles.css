@@ -1,7 +1,49 @@
+/* card-style-1 */
+
 .card-style-1 {
     background-image: url("../uploads/imagetest.jpg");
     height: 480px;
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 10px;
+}
+
+.card-style-1 .name{
+    font-family: 'Passion One', cursive;
+    position: absolute;
+    left: 10px;
+    bottom: 30px;
+    padding: 20px 20px 30px 20px;
+    width: calc(100% - 100px);
+    text-align: right;
+    font-size: 3rem;
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 1px #fff solid;
+    border-width: 1px 0 1px 0;
+    color: #1F3456;
+}
+
+.card-style-1 .position{
+    position: absolute;
+    width: calc(100% - 100px);
+    text-align: right;
+    left: 10px;
+    bottom: 30px;
+    padding: 5px 20px 5px 10px;
+    border-width: 1px 0 1px 0;
+    color: #1F3456;
+}
+
+.card-style-1 .number{
+    font-family: 'Passion One', cursive;
+    position: absolute;
+    right: 10px;
+    bottom: 30px;
+    padding: 20px 20px 30px 20px;
+    width: 80px;
+    font-size: 3rem;
+    background-color: #1F3456;
+    border: 1px #fff solid;
+    border-width: 1px 0 1px 0;
+    color: #fff;
 }
