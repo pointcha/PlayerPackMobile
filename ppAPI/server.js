@@ -1,6 +1,7 @@
 // Dependencies
 var express = require('express');
-var mongoose = require('mongoose');
+var mongoose = require('mongoose');                    
+var passport = require('passport');
 var bodyParser = require('body-parser');
 
 // MongoDB
@@ -13,6 +14,7 @@ app.use(bodyParser.json());
 
 // Routes
 app.use('/api', require('./routes/api'));
+
 
 // Start Server
 app.listen(8080);
