@@ -1,0 +1,17 @@
+{
+  "name": "playerpackapi",
+  "version": "1.0.0",
+  "description": "Player pack api server forplayer pack's mobile app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Steven Rolls",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.4",
+    "node-restful": "^0.2.5"
+  }
+}
