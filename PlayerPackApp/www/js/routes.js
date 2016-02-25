@@ -17,7 +17,7 @@ angular.module('app.routes', [])
     .state('join', {
       url: '/join',
       templateUrl: 'templates/join.html',
-      controller: 'joinCtrl'
+      controller: 'AppCtrl'
     })
       
     .state('menu', {
