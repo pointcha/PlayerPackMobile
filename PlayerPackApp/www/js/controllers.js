@@ -29,6 +29,12 @@ angular.module('app.controllers', [])
     $scope.modal.show();
   };
 
+  $scope.logout = function() {
+    delete $localStorage.user_id;
+    delete $localStorage.token;
+    $scope.loggedIn = false;
+  };
+
   // Perform the login action when the user submits the login form
   $scope.ppLogin = function() {
     $http.post("http://localhost:8080/api/login", { email: $scope.loginData.email, password: $scope.loginData.password }).then(function(result) {

@@ -24,6 +24,7 @@ angular.module('app.routes', [])
       url: '/side-menu22',
       abstract:true,
       templateUrl: 'templates/menu.html'
+      controller: 'AppCtrl'
     })
         
     .state('menu.profile', {
